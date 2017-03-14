@@ -1,0 +1,30 @@
+button {
+  padding: 10px;
+  border-radius: 30px;
+  background-color: white;
+  color: black;
+  border: solid limegreen 2px;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border: solid darkgreen 2px;
+}
+
+li {
+  list-style-type: none;
+}
+
+#action-buttons {
+  margin: 30px;
+}
+
+#tracks, #action-buttons  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
