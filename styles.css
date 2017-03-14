@@ -1,10 +1,11 @@
 button {
-  padding: 10px;
+  padding: 30px;
   border-radius: 30px;
   background-color: white;
   color: black;
   border: solid limegreen 2px;
   margin: 5px;
+  font-size: 1.1em;
 }
 
 button:hover {
@@ -21,10 +22,10 @@ li {
   margin: 30px;
 }
 
-#tracks, #action-buttons  {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+  #tracks, #action-buttons  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 
-}
+  }
